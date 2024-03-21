@@ -1,0 +1,175 @@
+body{
+    background: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+ 
+
+}
+
+.logo-div {
+    display: inline;
+    width: 79%;
+
+}
+
+.logo-div img {
+    display: inline;
+    height: 60px;
+    border-radius: 20px;
+}
+
+nav{
+    display: block;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 35px;
+}
+
+nav a{
+    margin-right: 15%;
+    text-decoration: none;
+}
+
+nav a:hover{
+color: white;
+}
+
+
+#active{
+    background-color: green;
+}
+
+.cart-div{
+    
+    display: inline;
+}
+.cart-div button{
+    text-decoration: none;
+    border-radius: 5px;
+    background: black;
+    color: blueviolet;
+    border-color: white;
+    margin-left: 79%;
+    margin-bottom: 1%;
+}
+
+button,.btn-3{
+    border-radius: 5px;
+    background: transparent;
+    border-color: white;
+}
+
+.main1 img{
+    align-items: baseline;
+    width: 100%;
+    height: 165px;
+  
+}
+
+.hbdiv1, .hbdiv2, .hbdiv3, .hbdiv4, .hbdiv5, .hbdiv6 {
+    background-color: aqua;
+    margin: 2%;
+    border: blue;
+    width: 43%;
+    height: 250px;
+    border-radius: 3%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    }
+
+/* product page css*/
+#pbdiv1, #pbdiv2, #pbdiv3, #pbdiv4, #pbdiv5, #pbdiv6 {
+    background-color: aqua;
+    margin: 2%;
+    width: 43%;
+    height: 320px;
+    border-radius: 3%;
+    float: left;
+    padding: 10px;
+
+    }
+
+.login-wrapper,.register-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+form{
+    background-color: aqua;
+    width: 20%;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter:blur;
+    border: 2px solid aqua;
+    border-radius: 3%;
+    backdrop-filter:blur;
+    }
+
+input[type="text"]{
+background: transparent;
+width: 100%;
+border: none;
+border-bottom: 2px solid black;
+padding-bottom: 5px;
+margin-bottom: 20px;
+
+}
+
+input[type="email"]{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    }
+
+input[type="password"]{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    }
+
+#lbtn-1{
+margin-right: 46%;
+}
+
+
+.about-1 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+
+}
+
+
+.main-about,.contact-us{
+        background-color: aqua;    
+        width: 20%;
+        padding:30px;  
+        margin-left: 35%; 
+        border-radius: 3%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
